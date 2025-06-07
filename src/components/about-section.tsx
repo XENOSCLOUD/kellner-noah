@@ -15,53 +15,54 @@ import {
 } from "lucide-react";
 
 const skills = [
-  "TypeScript", "React", "Next.js", "Node.js", "Python", "Go", 
-  "Docker", "Kubernetes", "AWS", "Azure", "Terraform", "PostgreSQL"
+  "n8n", "Zapier", "Power Automate", "OpenAI API", "Python", "PowerShell", 
+  "Docker", "Linux", "REST/OAuth", "Webhooks", "NFON CC Hub", "Plano WFM", 
+  "Metabase", "SQL/BI", "Networking", "Stakeholder Management"
 ];
 
 const expertise = [
   {
-    icon: Code,
-    title: "Technical Architecture",
-    description: "Designing scalable, maintainable systems that grow with your business needs."
-  },
-  {
     icon: Users,
-    title: "Team Leadership",
-    description: "Building and mentoring high-performing engineering teams across cultures."
-  },
-  {
-    icon: Zap,
-    title: "Process Automation",
-    description: "Eliminating manual workflows and reducing operational overhead by 80%."
+    title: "Team Leadership & Training",
+    description: "Managed 4-person cross-functional teams and mentored apprentices across multiple organizations."
   },
   {
     icon: Target,
-    title: "Business Alignment",
-    description: "Translating technical complexity into clear business value and ROI."
+    title: "Pre-Sales & Solution Consulting",
+    description: "Delivered discovery sessions, demos, and ROI storytelling for C-level stakeholders."
+  },
+  {
+    icon: Zap,
+    title: "Process Automation & AI",
+    description: "Implemented workflow automation (n8n, Zapier) and AI solutions with measurable impact."
+  },
+  {
+    icon: Code,
+    title: "Enterprise Infrastructure",
+    description: "Led large-scale migrations and managed end-to-end tech stacks for 200+ users."
   }
 ];
 
 const achievements = [
   {
     icon: TrendingUp,
-    title: "Revenue Impact",
-    description: "Delivered solutions driving $2M+ annual savings"
+    title: "IT Ticket Deflection",
+    description: "Built self-service dashboard suite deflecting 30% of IT tickets"
   },
   {
     icon: Award,
-    title: "Client Success",
-    description: "98% client satisfaction across 50+ projects"
+    title: "Contact Center Migration",
+    description: "Led 200+ agent migration with 20% AHT reduction"
   },
   {
     icon: Briefcase,
-    title: "Team Growth",
-    description: "Scaled engineering teams from 5 to 25+ members"
+    title: "AI-Powered Resolution",
+    description: "Delivered AI chatbot achieving 25% faster resolution times"
   },
   {
     icon: GraduationCap,
-    title: "Knowledge Transfer",
-    description: "Mentored 30+ junior developers to senior roles"
+    title: "Automation ROI",
+    description: "Automated scheduling flows saving 8% FTE cost annually"
   }
 ];
 
@@ -82,9 +83,9 @@ export function AboutSection() {
               About <span className="text-primary">Me</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              I'm passionate about creating technology solutions that don't just work—they excel. 
-              With a unique blend of technical expertise and business acumen, I help organizations 
-              navigate their digital transformation journeys.
+              Hybrid IT leader with 7+ years bridging technology and business operations. 
+              I bring proven experience in enterprise migrations, team leadership, and AI automation 
+              that drives measurable cost savings and operational excellence.
             </p>
           </div>
 
@@ -100,16 +101,17 @@ export function AboutSection() {
               <CardContent className="p-0">
                 <div className="prose prose-lg dark:prose-invert max-w-none">
                   <p className="text-lg leading-relaxed mb-6">
-                    My journey began in software development, where I quickly discovered that the most 
-                    impactful solutions come from understanding both the technical landscape and the 
-                    human challenges they solve. Over 6+ years, I've evolved from a code-focused 
-                    developer to a strategic technology leader.
+                    My career progression from IT Trainee to Head of IT demonstrates a track record of 
+                    driving tangible business outcomes for my employers. From optimizing legacy infrastructure 
+                    to implementing cutting-edge AI solutions, I consistently deliver cost reductions while 
+                    improving operational efficiency across enterprise environments.
                   </p>
                   <p className="text-lg leading-relaxed">
-                    Today, I specialize in bridging the gap between complex technical requirements and 
-                    real business needs. Whether it's architecting microservices that scale to millions 
-                    of users, automating processes that save thousands of hours, or leading teams through 
-                    challenging migrations, I focus on solutions that deliver measurable impact.
+                    What sets me apart is my ability to lead cross-functional teams while maintaining hands-on 
+                    technical expertise. I've successfully managed 4-person teams, collaborated with C-level 
+                    executives, and mentored apprentices. My approach combines strategic thinking with practical 
+                    implementation, ensuring solutions not only work technically but integrate seamlessly with 
+                    existing business processes and company culture.
                   </p>
                 </div>
               </CardContent>

@@ -3,7 +3,6 @@ import { EnhancedHero } from "@/components/enhanced-hero";
 import { AboutSection } from "@/components/about-section";
 import { ExperienceSection } from "@/components/experience-section";
 import { ProjectsSection } from "@/components/projects-section";
-import { TestimonialsSection } from "@/components/testimonials-section";
 import { ContactSection } from "@/components/contact-section";
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       <AboutSection />
       <ExperienceSection />
       <ProjectsSection />
-      <TestimonialsSection />
       <ContactSection />
     </div>
   );
