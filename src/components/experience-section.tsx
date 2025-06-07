@@ -214,17 +214,18 @@ export function ExperienceSection() {
                             </div>
                             <ul className="space-y-3">
                               {exp.achievements.map((achievement, i) => (
-                                <motion.li 
-                                  key={i} 
-                                  initial={{ opacity: 0, x: -20 }}
-                                  whileInView={{ opacity: 1, x: 0 }}
-                                  transition={{ duration: 0.5, delay: 0.1 * i }}
-                                  viewport={{ once: true }}
-                                  className="flex items-start gap-3"
-                                >
-                                  <div className="w-2 h-2 bg-primary rounded-full mt-2.5 flex-shrink-0"></div>
-                                  <span className="text-sm leading-relaxed">{achievement}</span>
-                                </motion.li>
+                                <li key={i}>
+                                  <motion.div
+                                    initial={{ opacity: 0, x: -20 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    transition={{ duration: 0.5, delay: 0.1 * i }}
+                                    viewport={{ once: true }}
+                                    className="flex items-start gap-3"
+                                  >
+                                    <div className="w-2 h-2 bg-primary rounded-full mt-2.5 flex-shrink-0"></div>
+                                    <span className="text-sm leading-relaxed">{achievement}</span>
+                                  </motion.div>
+                                </li>
                               ))}
                             </ul>
                           </div>
