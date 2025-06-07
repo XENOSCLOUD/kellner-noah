@@ -194,7 +194,7 @@ const categoryIcons = {
 };
 
 // 3D Tilt Hook
-function useTilt(ref: React.RefObject<HTMLElement>) {
+function useTilt(ref: React.RefObject<HTMLDivElement>) {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   
@@ -587,7 +587,7 @@ export function ProjectsSection() {
 
 // Separate component for featured projects to avoid hook issues
 function FeaturedProjectCard({ project, index }: { project: Project, index: number }) {
-  const cardRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLDivElement>(null!);
   const tilt = useTilt(cardRef);
   
   return (
@@ -654,7 +654,7 @@ function FeaturedProjectCard({ project, index }: { project: Project, index: numb
 
 // Separate component for other projects to avoid hook issues
 function OtherProjectCard({ project, index }: { project: Project, index: number }) {
-  const cardRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLDivElement>(null!);
   const tilt = useTilt(cardRef);
   
   return (

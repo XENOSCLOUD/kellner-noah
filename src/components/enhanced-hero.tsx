@@ -154,17 +154,27 @@ export function EnhancedHero() {
             className="flex justify-center space-x-6"
           >
             <Button variant="ghost" size="icon" asChild>
-              <a href="mailto:contact@noah-kellner.com">
+              <a href="mailto:contact@noah-kellner.com" aria-label="Email">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://linkedin.com/in/noah-kellner" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://linkedin.com/in/noah-kellner"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com/noah-kellner" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/noah-kellner"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
                 <Github className="h-5 w-5" />
               </a>
             </Button>
